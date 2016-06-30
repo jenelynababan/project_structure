@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>{{ title }}</title>
+    <link rel='stylesheet' href='/stylesheets/style.css' />
+  </head>
+  <body>
+    <h1>{{ title }}</h1>
+    <p>Welcome to {{ title }}</p>
+
+    <form method="post" action="/arithmetics/add">
+      <input type="text" name="n1" value="1"><br>
+      <input type="text" name="n2" value="2"><br>
+      <input type="submit" value="add">
+
+    </form>
+    <br><a href="/users">go to Users</a>
+    <br><a href="/clients">go to clients</a>
+  </body>
+</html>
